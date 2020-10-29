@@ -9,5 +9,5 @@ def is_correct(*args):
             except Exception:
                 errs_conter += 1
                 break
-    return (answer, errs_conter)
+    return answer, errs_conter
 
